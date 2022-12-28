@@ -1,0 +1,54 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.button {
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+canvas {
+  margin: auto;
+  display: block;
+}
+
+footer {
+  margin-top: 48px;
+  padding-bottom: 0px;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  text-align: center;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 300px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  font-weight: normal;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -150px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.center {
+margin-left: auto;
+margin-right: auto;
+}
